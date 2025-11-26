@@ -1,4 +1,3 @@
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -7,13 +6,7 @@ export default function Home() {
       <p className="text-lg mb-4">
         This is a showcase of my projects and skills.
       </p>
-      <Image
-        src="/profile.jpg"
-        alt="Profile Picture"
-        width={150}
-        height={150}
-        className="rounded-full"
-      />
+      
     </main>
   );
 }
